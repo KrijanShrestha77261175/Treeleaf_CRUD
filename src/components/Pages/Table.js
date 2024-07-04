@@ -133,7 +133,7 @@ const TableComponent = () => {
             </FormControl>
             <FormControl>
               <FormLabel>Country</FormLabel>
-              <Input defaultValue={selectedEntry?.country} />
+              <Input value={selectedEntry?.country} />
             </FormControl>
           </ModalBody>
           <ModalFooter>
